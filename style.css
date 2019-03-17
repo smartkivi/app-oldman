@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:url("./img/oldman.png") no-repeat center center;
+    background-size:60% 100%;
+}
+.background{
+    height: 100vh;
+    position: relative;
+}
+.background>div{
+    /* border:2px red solid; */
+    display: inline-block;
+}
+.background>div>span{
+    display: inline-block;
+    width:100px;
+    border:2px black solid;
+}
+
+.background>.firstPoint{
+    position: absolute;
+    top:10%;
+    left:43%;
+    position: relative;
+}
+.background>.firstPoint>.first{
+    position: absolute;
+    top:-28px;
+    left:20px;
+    background-color: rgba(255,255,255,0.3);
+    display: none;
+}
+.background>.firstPoint>.first.active{
+    display:inline-block;
+}
+.background>.secondPoint{
+    position: absolute;
+    top:43%;
+    left:60%;
+    position: relative;
+}
+.background>.secondPoint>.second{
+    position: absolute;
+    top:-28px;
+    left:20px;
+    background-color: rgba(255,255,255,0.3);
+    display: none;
+}
+.background>.secondPoint>.second.active{
+    display:inline-block;
+}
+.background>.thirdPoint{
+    position: absolute;
+    top:72%;
+    left:48%;
+    position: relative;
+}
+.background>.thirdPoint>.third{
+    position: absolute;
+    top:-28px;
+    left:20px;
+    background-color: rgba(255,255,255,0.3);
+    display: none;
+}
+.background>.thirdPoint>.third.active{
+    display:inline-block;
+}
+.background>div>div{
+    width:20px;
+    height:20px;
+    border:2px solid black;
+    border-radius: 50%;
+}
+
+
+/* .firstPoint>.head{
+    position: absolute;
+    top:75px;
+    left:315px;
+}
+.secondPoint>.arm{
+    position: absolute;
+    top:300px;
+    left:480px;
+}
+.thirdPoint>.leg{
+    position: absolute;
+    top:500px;
+    left:360px;
+} */
