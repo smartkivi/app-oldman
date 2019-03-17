@@ -17,7 +17,7 @@ body{
 .background>div>span{
     display: inline-block;
     width:100px;
-    border:2px black solid;
+    border:1px grey solid;
 }
 
 .background>.firstPoint{
@@ -71,7 +71,7 @@ body{
 .background>div>div{
     width:20px;
     height:20px;
-    border:2px solid black;
+    border:1px solid black;
     border-radius: 50%;
 }
 
