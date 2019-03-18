@@ -1,4 +1,5 @@
 var background=document.getElementById("background");
+initialize(background)
 function initialize(background){
     setSize();
     window.onresize=function(){
